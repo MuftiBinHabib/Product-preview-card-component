@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.productwrapper {
+  height: 735px;
+  width: 463px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+}
+.productwrapper img {
+  width: 462px;
+}
+.productwrapper h2 {
+  font-family: "Montserrat", serif;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.productwrapper h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 25px;
+  width: 250px;
+  padding-left: 20px;
+}
+.productwrapper p {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  padding-left: 20px;
+  width: 333px;
+}
+.productwrapper .discount {
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+.productwrapper .actual {
+  text-decoration: line-through;
+  position: absolute;
+  left: 162px;
+  bottom: 90px;
+}
+.productwrapper button {
+  height: 50px;
+  width: 400px;
+  margin-left: 20px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 15px;
+  color: white;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

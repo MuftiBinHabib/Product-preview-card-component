@@ -1,0 +1,72 @@
+$c1 : hsl(158, 36%, 37%);
+$c2 : hsl(30, 38%, 92%);
+$c3 : hsl(212, 21%, 14%);
+$c4 : hsl(228, 12%, 48%);
+$c5: hsl(0, 0%, 100%);
+
+$f1 : "Montserrat", serif;
+$f2 : "Fraunces", serif;
+
+body{
+    background-color: $c2;
+}
+
+
+.productwrapper{
+    height: 735px;
+    width: 463px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    
+    img{
+        width: 462px;
+        
+        
+    }
+    h2{
+        font-family: $f1;
+        padding-left: 20px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 20px;
+
+    }
+    h3{
+        font-family: $f2;
+        font-weight: 700;
+        font-size: 25px;
+        width: 250px;
+        padding-left: 20px;
+    }
+    p{
+        font-family: $f1;
+        font-size: 16px;
+        padding-left: 20px;
+        width: 333px;
+    }
+    .discount{
+        font-size: 40px;
+        font-family: $f2;
+        color: $c1;
+    }
+    .actual{
+        text-decoration: line-through;
+    position: absolute;
+    left: 162px;
+    bottom: 90px;
+    }
+
+    button{
+        height: 50px;
+        width: 400px;
+        margin-left: 20px;
+        background-color: $c1;
+        border-radius: 15px;
+        color: white;
+        font-family: $f1;
+        font-weight: 500;
+        border: none;
+    }
+}
